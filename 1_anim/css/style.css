@@ -109,7 +109,7 @@
 
 
 .keys span:hover {
-	animation: change-background 10s ease infinite;
+	animation: change-background 4s ease infinite;
 	background: rgba(255,255,255,0.8);
 	color: #333;
 }
