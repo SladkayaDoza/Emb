@@ -88,9 +88,24 @@
   }
 }
 
+@keyframes anim {
+	0% {     
+    color: #000000FF;   
+  }   
+  33.333% {     
+    color: #368ee5;   
+  } 
+  66.666% {
+    color: #368ee5;
+  }
+  100% {
+   	color: #000000FF;
+  }
+}
+
 
 .keys span.operator {
-    -webkit-animation-name: change-background; /* Safari 4.0 - 8.0 */
+	-webkit-animation-name: change-background; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: change-background;
     animation-duration: 4s;
@@ -113,7 +128,7 @@
 
 
 .keys span:hover {
-	animation: change-background 4s ease infinite;
+	animation: anim 3s ease infinite;
 	background: rgba(255,255,255,0.8);
 	color: #333;
 }
