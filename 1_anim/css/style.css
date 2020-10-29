@@ -77,20 +77,24 @@
 	0% {     
     color: #000000FF;   
   }   
-  25% {     
-    color: #318CE7FF;   
+  33.333% {     
+    color: #ffffff;   
   } 
-  50% {
-    color: #318CE7FF;
+  66.666% {
+    color: #ffffff;
   }
-  75% {
+  100% {
    	color: #000000FF;
   }
-  100%
 }
 
 
 .keys span.operator {
+    -webkit-animation-name: change-background; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: change-background;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 	background: #318CE7f5;
 	/*background: rgba(250,100,0,0.3);*/
 	margin-right: 0;
